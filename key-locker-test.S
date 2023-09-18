@@ -4,7 +4,7 @@ section .data
     kl_restriction_cpl_0_only_fmt db "restriction of CPL-0-only supported: %u", 10, 0
     kl_restriction_no_encrypt_fmt db "restriction of no-encrypt supported: %u", 10, 0
     kl_restriction_no_decrypt_fmt db "restriction of no-decrypt supported: %u", 10, 0
-    kl_fully_enabled_fmt db "key locker fully enabled: %u", 10, 0
+    kl_fully_enabled_fmt db "operating system and firmware have enabled key locker aes instructions: %u", 10, 0
     kl_wide_instructions_fmt db "aes wide key locker instructions supported: %u", 10, 0
     kl_platform_supports_backups_fmt db "platform supports IWKeyBackup MSRs: %u", 10, 0
     kl_no_backup_param_supported_fmt db "no backup parameter to loadiwkey is supported: %u", 10, 0
